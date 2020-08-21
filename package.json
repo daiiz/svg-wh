@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "link": "./node_modules/.bin/vercel",
     "start": "./node_modules/.bin/vercel dev",
     "deploy": "./node_modules/.bin/vercel --prod"
   },
