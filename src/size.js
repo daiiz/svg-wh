@@ -69,7 +69,8 @@ module.exports = async (req, res) => {
 
   res.writeHead(200, {
     'Content-Type': 'image/svg+xml',
-    'Cache-Control': `private, max-age=${60 * 60 * 24}` // 1 day
+    'Cache-Control': `private, max-age=${60 * 60 * 24}`, // 1 day
+    'X-Svg-Uri': svgUrl
   })
   res.end(resSvgText)
 }
