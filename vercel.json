@@ -9,6 +9,18 @@
   ],
   "routes": [
     {
+      "src": "/w/(?<width>[\\d]+)",
+      "dest": "src/size.js?width=$width"
+    },
+    {
+      "src": "/h/(?<height>[\\d]+)",
+      "dest": "src/size.js?height=$height"
+    },
+    {
+      "src": "/",
+      "dest": "src/size.js"
+    },
+    {
       "src": "/.*",
       "dest": "src/home.js"
     }
