@@ -1,0 +1,15 @@
+{
+  "name": "svg-wh",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/vercel dev",
+    "deploy": "./node_modules/.bin/vercel --prod"
+  },
+  "author": "daiiz",
+  "license": "MIT",
+  "devDependencies": {
+    "vercel": "^19.2.0"
+  }
+}
